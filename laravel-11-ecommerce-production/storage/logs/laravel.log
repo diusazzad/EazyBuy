@@ -1,0 +1,40 @@
+[2024-06-29 17:17:26] local.ERROR: The "--columns" option does not exist. {"exception":"[object] (Symfony\\Component\\Console\\Exception\\RuntimeException(code: 0): The \"--columns\" option does not exist. at H:\\Diusazzad\\laravel-11-ecommerce\\vendor\\symfony\\console\\Input\\ArgvInput.php:220)
+[stacktrace]
+#0 H:\\Diusazzad\\laravel-11-ecommerce\\vendor\\symfony\\console\\Input\\ArgvInput.php(147): Symfony\\Component\\Console\\Input\\ArgvInput->addLongOption()
+#1 H:\\Diusazzad\\laravel-11-ecommerce\\vendor\\symfony\\console\\Input\\ArgvInput.php(82): Symfony\\Component\\Console\\Input\\ArgvInput->parseLongOption()
+#2 H:\\Diusazzad\\laravel-11-ecommerce\\vendor\\symfony\\console\\Input\\ArgvInput.php(71): Symfony\\Component\\Console\\Input\\ArgvInput->parseToken()
+#3 H:\\Diusazzad\\laravel-11-ecommerce\\vendor\\symfony\\console\\Input\\Input.php(53): Symfony\\Component\\Console\\Input\\ArgvInput->parse()
+#4 H:\\Diusazzad\\laravel-11-ecommerce\\vendor\\symfony\\console\\Command\\Command.php(238): Symfony\\Component\\Console\\Input\\Input->bind()
+#5 H:\\Diusazzad\\laravel-11-ecommerce\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Command.php(182): Symfony\\Component\\Console\\Command\\Command->run()
+#6 H:\\Diusazzad\\laravel-11-ecommerce\\vendor\\symfony\\console\\Application.php(1047): Illuminate\\Console\\Command->run()
+#7 H:\\Diusazzad\\laravel-11-ecommerce\\vendor\\symfony\\console\\Application.php(316): Symfony\\Component\\Console\\Application->doRunCommand()
+#8 H:\\Diusazzad\\laravel-11-ecommerce\\vendor\\symfony\\console\\Application.php(167): Symfony\\Component\\Console\\Application->doRun()
+#9 H:\\Diusazzad\\laravel-11-ecommerce\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(196): Symfony\\Component\\Console\\Application->run()
+#10 H:\\Diusazzad\\laravel-11-ecommerce\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(1198): Illuminate\\Foundation\\Console\\Kernel->handle()
+#11 H:\\Diusazzad\\laravel-11-ecommerce\\artisan(13): Illuminate\\Foundation\\Application->handleCommand()
+#12 {main}
+"} 
+[2024-06-30 01:26:05] local.ERROR: Uncaught Symfony\Component\Finder\Exception\DirectoryNotFoundException: The "H:\Diusazzad\laravel-11-ecommerce\laravel-11-ecommerce-production\resources\views" directory does not exist. in H:\Diusazzad\laravel-11-ecommerce\vendor\symfony\finder\Finder.php:646
+Stack trace:
+#0 H:\Diusazzad\laravel-11-ecommerce\vendor\laravel\framework\src\Illuminate\Filesystem\Filesystem.php(584): Symfony\Component\Finder\Finder->in()
+#1 Command line code(1): Illuminate\Filesystem\Filesystem->files()
+#2 Command line code(1): getViews()
+#3 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Symfony\\Component\\Finder\\Exception\\DirectoryNotFoundException: The \"H:\\Diusazzad\\laravel-11-ecommerce\\laravel-11-ecommerce-production\\resources\\views\" directory does not exist. in H:\\Diusazzad\\laravel-11-ecommerce\\vendor\\symfony\\finder\\Finder.php:646
+Stack trace:
+#0 H:\\Diusazzad\\laravel-11-ecommerce\\vendor\\laravel\\framework\\src\\Illuminate\\Filesystem\\Filesystem.php(584): Symfony\\Component\\Finder\\Finder->in()
+#1 Command line code(1): Illuminate\\Filesystem\\Filesystem->files()
+#2 Command line code(1): getViews()
+#3 {main}
+  thrown at H:\\Diusazzad\\laravel-11-ecommerce\\vendor\\symfony\\finder\\Finder.php:646)
+[stacktrace]
+#0 {main}
+"} 
+->run()
+#7 H:\\Diusazzad\\laravel-11-ecommerce\\vendor\\symfony\\console\\Application.php(316): Symfony\\Component\\Console\\Application->doRunCommand()
+#8 H:\\Diusazzad\\laravel-11-ecommerce\\vendor\\symfony\\console\\Application.php(167): Symfony\\Component\\Console\\Application->doRun()
+#9 H:\\Diusazzad\\laravel-11-ecommerce\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(196): Symfony\\Component\\Console\\Application->run()
+#10 H:\\Diusazzad\\laravel-11-ecommerce\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(1198): Illuminate\\Foundation\\Console\\Kernel->handle()
+#11 H:\\Diusazzad\\laravel-11-ecommerce\\artisan(13): Illuminate\\Foundation\\Application->handleCommand()
+#12 {main}
+"} 
