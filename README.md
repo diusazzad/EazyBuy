@@ -3,6 +3,7 @@
 
 ## Table of Contents
 
+- [Core Design](#core-design)
 - [Badges and Metrics](#badges-and-metrics)
 - [Project Highlights](#project-highlights)
 - [Overview](#overview)
@@ -13,6 +14,17 @@
 - [Getting Started](#getting-started)
 - [Contact](#contact)
 - [Screenshots](#screenshots)
+
+## Core Design
+
+- Products: Name, description, price, quantity, images, categories, attributes (size, color, etc.).
+- Categories: Name, description, parent category (for hierarchical structure).
+- Users: Name, email, password, address, phone number, role (customer, admin).
+- Orders: Order number, customer, order date, total amount, status (pending, processing, shipped, delivered).
+- Order Items: Order, product, quantity, price.
+Addresses: Address line 1, address line 2, city, state, country, zip code, default (for user).
+- Reviews: Product, user, rating, comment.
+- Carts: User, products (with quantities).  
 
 ## Badges and Metrics
 
@@ -72,12 +84,13 @@ For inquiries or contributions, please contact whatsapp - +8801953576147
 
 ## Screenshots
 
-![Homepage Screenshot](path/to/homepage-screenshot.png)
+![Homepage Screenshot](systemDesign/screenshot/1.png)
+![Homepage Screenshot](systemDesign\screenshot\2.png)
 
-![Product Listing Screenshot](path/to/product-listing-screenshot.png)
-
+<!-- ![Product Listing Screenshot](systemDesign\screenshot\Screenshot2024-07-14061319.png) -->
+<!-- 
 ![Checkout Process Screenshot](path/to/checkout-process-screenshot.png)
 
 ![Database Schema Diagram](path/to/database-schema-diagram.png)
 
-![Checkout Process Flowchart](path/to/checkout-flowchart.png)
+![Checkout Process Flowchart](path/to/checkout-flowchart.png) -->
